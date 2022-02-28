@@ -1,0 +1,20 @@
+[
+  {
+    "title": "dive mask",
+    "price": 123.5,
+    "thumbnail": "https://www.dive.com",
+    "id": 1
+  }
+    {
+    "title": "dive mask",
+    "price": 123.5,
+    "thumbnail": "https://www.dive.com",
+    "id": 2
+  }
+    {
+    "title": "dive mask",
+    "price": 123.5,
+    "thumbnail": "https://www.dive.com",
+    "id": 3
+  }
+]
