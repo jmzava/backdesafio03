@@ -26,6 +26,5 @@ app.get('/productosRandom', async  (req,res)=>{
     let max = productStore.length 
     let min = 1 
     const idRandom =  Math.floor(Math.random() * max + min);
-    console.log(idRandom)
     res.send(productStore[idRandom -1])
 } )
