@@ -85,30 +85,4 @@ class ProductContainer {
 
 const productObject = new ProductContainer("Product.txt");
 
-function saveProduct() {
-    productObject.save(product1);
-}
-
-function getProductById(id) {
-    productObject.getById(id);
-}
-
-async function getAllProducts() {
-    console.log(await productObject.getAll());
-}
-
-function deleteId(id) {
-    productObject.deleteById(id);
-}
-
-function deleteallProducts() {
-    productObject.deleteAll();
-  }
-
-const prodId = 4 // cambiar el id cuando se quiere trabajar sobre uno en especial
-
-// saveProduct()
-// getProductById(prodId)
-// getAllProducts()
-// deleteId(prodId) 
-// deleteallProducts();
+module.exports = productObject 
